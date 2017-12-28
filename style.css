@@ -1,0 +1,131 @@
+* 		{
+			margin:0px;
+			padding:0px;
+			}
+.wrapper{	width:70%;
+			height:220%;
+			border:1px solid; 
+			margin: auto; padding:10px; 
+			background-color:#666666; 
+			
+			
+			}
+.header {	
+			width:100%;
+			height:6%;
+			border:1px solid;
+			margin:auto; 
+			background-color:white; 
+			margin-bottom:10px}
+.logo-header{width:17%;
+			height:135%;
+			border:1px solid;
+			margin-left:0px;
+			float:left;
+			background-color:white; 
+}
+.title-header{width:83%;
+			height:auto;
+			border:1px solid;
+			margin-left:159px;
+			background-color:white;
+			font-size:50px;
+			text-align:center;
+			line-height:120px;
+			
+			}
+
+.menu 		{width:100%;
+			height:60%;
+			border:1px solid;
+			margin-bottom:5px;
+			background-color:white;
+			}
+.menu ul{	list-style:none;
+			margin:0px;
+			width:100%;
+			
+			}
+			
+.menu ul li	{padding:15px;
+			 position:relative;
+			 width:90px;
+			 background-color:gray;
+			 border-top:yellow;
+			 float:left;
+			 
+			 }
+			 
+.menu ul ul{ transition: all 0.5s;
+				position:absolute;
+				opacity:0;
+				visibility:hidden;
+				top:-2%;
+				left:50%;
+				}
+
+.menu ul li a{		color:white;
+					text-decoration:none;}
+			
+.menu ul li:hover> ul{	opacity:1;
+						visibility:visible;}		
+			
+.kotak-masuk{
+			width:300px;
+			height:300px;
+			border:1px solid;
+			line-height:120px;
+			 margin-left:90px;
+			 margin-right:5px;
+			 margin-bottom:10px;}
+
+.judul-masuk{width:100%;
+			height:30px;
+			border:1px solid;
+			text-align:center;
+			line-height:30px;
+			font-weight:bold;
+			background-color:brown;
+			font-size:15px;
+			}
+			
+.masuk     {width:100%;
+			height:270px;
+			border:1px solid;
+			text-align:center;
+			text-align:center;}	
+.masuk form{margin-top:40px;}
+.masuk form input{margin-top:10px;
+				width:250p;
+				height:30px;}
+.content{	width:80%;
+			border:1px solid;
+			margin-bottom:30px;
+			margin-left:100px;
+			background-color:white;
+			padding-left:10;}
+
+.content h3{ padding:10px;
+			 margin-bottom:20px;
+			 margin-left:5px;
+			 text-align:center;	} 
+.content  b { padding:10px;
+			 margin-bottom:20px;bnn
+			 margin-left:270px;
+			 text-align:center;} 			 
+.content  p{ padding:20px;
+			 margin-bottom:20px;
+			 margin-left:10px;
+			 margin-right:5px;
+			 margin:5px;
+			 margin-top:auto;
+			} 	
+.content	img {	margin-left:10px;
+					float:left; margin-left:10px;
+			 margin-right:5px;
+			 ;
+					}	
+.footer {	width:265%;
+			height:30%;  background-color:white;
+			text-align:center;
+		} 
